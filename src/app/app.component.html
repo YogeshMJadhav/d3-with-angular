@@ -1,11 +1,10 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-</div>
-
-<h1>Bar Chart</h1>
-<app-bar-chart [data]= "data | async"></app-bar-chart>
-
-<router-outlet></router-outlet>
+<mat-drawer-container fullscreen>
+    <mat-drawer mode="side" opened="true">
+        <mat-menu ></mat-menu>
+        <a mat-menu-item *ngFor="let item of examples" [routerLink]="item.route" routerLinkActive="active">{{ item.title }}</a>
+    </mat-drawer>
+    <mat-drawer-content>
+        <h1>{{ title }}</h1>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>

@@ -1,0 +1,58 @@
+{
+	"barchart": 
+		[
+			{
+				"letter": "A",
+				"frequency": 12
+			},
+			{
+				"letter": "B",
+				"frequency": 13
+			},
+			{
+				"letter": "C",
+				"frequency": 14
+			},
+			{
+				"letter": "D",
+				"frequency": 15
+			},
+			{
+				"letter": "E",
+				"frequency": 16
+			},
+			{
+				"letter": "F",
+				"frequency": 17
+			},
+			{
+				"letter": "G",
+				"frequency": 18
+			},
+			{
+				"letter": "H",
+				"frequency": 19
+			}
+		],
+
+
+"donut": [
+	{
+		"labels": ["A", "B", "C"],
+		"datasets": [
+			{
+				"data": [300, 51, 101],                   
+				"hoverBackgroundColor": [
+					"#FF6373",
+					"#36A2EB",
+					"#FFCE56"
+				],
+				"backgroundColor": [
+					"#FF6373",
+					"#36A2EB",
+					"#FFCE56"
+				]
+			}]             
+	}
+]
+}
